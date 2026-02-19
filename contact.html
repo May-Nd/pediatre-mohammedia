@@ -4,7 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contact – Dr Fatima Bouzzite</title>
-  <meta name="description" content="Contactez le Dr Fatima Bouzzite, pédiatre à Mohammedia. Prenez rendez‑vous par téléphone, email ou via le formulaire en ligne." />
+  <!-- Updated description to reflect that appointments se prennent par téléphone, email ou via la prise de rendez-vous en ligne. -->
+  <meta name="description" content="Contactez le Dr Fatima Bouzzite, pédiatre à Mohammedia. Prenez rendez‑vous par téléphone, email ou via notre système de prise de rendez‑vous en ligne." />
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 </head>
@@ -23,7 +24,8 @@
   </header>
 
   <main>
-    <section class="hero" style="background-image: linear-gradient(rgba(0, 106, 163, 0.5), rgba(0, 106, 163, 0.5)), url('https://source.unsplash.com/1600x600/?contact,medical');">
+    <!-- The hero section uses the default background defined in style.css, so the inline style has been removed -->
+    <section class="hero">
       <h1>Contact et rendez‑vous</h1>
       <p>Nous sommes là pour répondre à vos questions et prendre soin de vos enfants.</p>
     </section>
@@ -63,24 +65,7 @@
         <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
         <!-- Fin de widget en ligne Calendly -->
 
-        <h2 class="section-title" style="margin-top:3rem;">Formulaire de contact</h2>
-        <p>Vous pouvez nous contacter par téléphone ou email. Si vous préférez, envoyez-nous un message via ce formulaire :</p>
-        <form action="mailto:fatimabouzzite@hotmail.fr" method="post" enctype="text/plain" style="margin-top:1rem;">
-          <div style="display:flex; flex-wrap: wrap; gap: 1rem;">
-            <div style="flex:1; min-width:280px;">
-              <label for="name">Nom complet</label><br>
-              <input type="text" id="name" name="Nom" required style="width:100%; padding:0.5rem; margin-bottom:0.5rem; border:1px solid #ccc; border-radius:4px;">
-            </div>
-            <div style="flex:1; min-width:280px;">
-              <label for="email">Email</label><br>
-              <input type="email" id="email" name="Email" required style="width:100%; padding:0.5rem; margin-bottom:0.5rem; border:1px solid #ccc; border-radius:4px;">
-            </div>
-          </div>
-          <label for="message">Message</label><br>
-          <textarea id="message" name="Message" rows="5" required style="width:100%; padding:0.5rem; margin-bottom:0.5rem; border:1px solid #ccc; border-radius:4px;"></textarea>
-          <button type="submit" class="btn-primary">Envoyer</button>
-          <p style="margin-top:0.5rem; font-size:0.8rem;">En cliquant sur « Envoyer », votre client de messagerie s’ouvrira pour finaliser l’envoi. Ne partagez pas de données médicales sensibles par ce biais.</p>
-        </form>
+        <!-- Contact form removed. Parents sont invités à utiliser le téléphone, l'email ou le calendrier en ligne pour prendre rendez-vous. -->
       </div>
     </section>
   </main>
