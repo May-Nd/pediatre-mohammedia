@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact – Dr Fatima Bouzzite</title>
+  <meta name="description" content="Contactez le Dr Fatima Bouzzite, pédiatre à Mohammedia. Prenez rendez‑vous par téléphone, email ou via le formulaire en ligne." />
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="nav-logo">Dr&nbsp;Fatima Bouzzite</div>
+      <nav class="nav-links">
+        <a href="index.html">Accueil</a>
+        <a href="about.html">Dr&nbsp;Bouzzite</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" style="background-image: linear-gradient(rgba(0, 106, 163, 0.5), rgba(0, 106, 163, 0.5)), url('https://source.unsplash.com/1600x600/?contact,medical');">
+      <h1>Contact et rendez‑vous</h1>
+      <p>Nous sommes là pour répondre à vos questions et prendre soin de vos enfants.</p>
+    </section>
+
+    <section id="rdv">
+      <div class="container">
+        <h2 class="section-title">Informations pratiques</h2>
+        <div class="contact-details">
+          <div class="contact-card">
+            <h4>Adresse du cabinet</h4>
+            <p>599 Boulevard Abdelkrim Al Khattabi<br>Mohammédia, Maroc</p>
+          </div>
+          <div class="contact-card">
+            <h4>Contact</h4>
+            <p>Tél : <a href="tel:+212523282847">05 23 28 28 47</a><br>
+            Mobile : <a href="tel:+212659150085">06 59 15 00 85</a><br>
+            Email : <a href="mailto:fatimabouzzite@hotmail.fr">fatimabouzzite@hotmail.fr</a></p>
+          </div>
+          <div class="contact-card">
+            <h4>Horaires d’ouverture</h4>
+            <p>Lundi – Vendredi : 9h – 17h<br>
+            Samedi : 9h – 13h<br>
+            Dimanche : fermé</p>
+          </div>
+        </div>
+
+        <h2 class="section-title" style="margin-top:3rem;">Plan d’accès</h2>
+        <div class="map-container">
+          <!-- Static Google Maps embed pointing to the cabinet address -->
+          <iframe src="https://www.google.com/maps?q=599%20Boulevard%20Abdelkrim%20Al%20Khattabi%20Mohammedia&output=embed" allowfullscreen loading="lazy"></iframe>
+        </div>
+
+        <h2 class="section-title" style="margin-top:3rem;">Formulaire de contact</h2>
+        <p>Vous pouvez nous contacter par téléphone ou email. Si vous préférez, envoyez-nous un message via ce formulaire :</p>
+        <form action="mailto:fatimabouzzite@hotmail.fr" method="post" enctype="text/plain" style="margin-top:1rem;">
+          <div style="display:flex; flex-wrap: wrap; gap: 1rem;">
+            <div style="flex:1; min-width:280px;">
+              <label for="name">Nom complet</label><br>
+              <input type="text" id="name" name="Nom" required style="width:100%; padding:0.5rem; margin-bottom:0.5rem; border:1px solid #ccc; border-radius:4px;">
+            </div>
+            <div style="flex:1; min-width:280px;">
+              <label for="email">Email</label><br>
+              <input type="email" id="email" name="Email" required style="width:100%; padding:0.5rem; margin-bottom:0.5rem; border:1px solid #ccc; border-radius:4px;">
+            </div>
+          </div>
+          <label for="message">Message</label><br>
+          <textarea id="message" name="Message" rows="5" required style="width:100%; padding:0.5rem; margin-bottom:0.5rem; border:1px solid #ccc; border-radius:4px;"></textarea>
+          <button type="submit" class="btn-primary">Envoyer</button>
+          <p style="margin-top:0.5rem; font-size:0.8rem;">En cliquant sur « Envoyer », votre client de messagerie s’ouvrira pour finaliser l’envoi. Ne partagez pas de données médicales sensibles par ce biais.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Dr Fatima Bouzzite – Tous droits réservés.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
